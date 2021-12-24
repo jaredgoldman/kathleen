@@ -15,7 +15,11 @@ export default function HomePage() {
             <div>
               <h1 className={styles.heading}>Kathleen Mudrick</h1>
             </div>
-            <div className={styles.subHeading}>Artist - Photographer - Educator</div>
+            <div className={styles.subHeading}>
+              <p>Artist</p>
+              <p>Photographer </p>
+              <p>Educator </p>
+            </div>
           </div>
         </div>
       </div>

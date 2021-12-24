@@ -4,8 +4,8 @@
   background-color: #fab0b0;
   font-family: 'Poiret One', cursive;
 
-  @media screen and (max-width: 600px) {
-    height: 10rem;
+  @media screen and (max-width: 700px) {
+    height: 15rem;
   }
 }
 
@@ -26,9 +26,8 @@
     color: blueviolet;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     flex-direction: column;
-    font-size: 2rem;
   }
 }
 
