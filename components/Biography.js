@@ -14,11 +14,11 @@ export default function Biography() {
       <div className={styles.bioContainer}>
         <div className={styles.bio}>
           <p>
-            Kate Mudrick is a Toronto-based visual artist, whose primary choice of media includes
-            oil or acrylic paint on canvas. With an educational background in the arts, sciences,
-            and teaching, she attended Etobicoke School of the Arts for Visual Art, gained her HBSc
-            from Guelph University and is currently attending the University of Toronto, working
-            towards a Masters of Teaching degree.
+            <strong>Kate Mudrick</strong> is a Toronto-based visual artist, whose primary choice of
+            media includes oil or acrylic paint on canvas. With an educational background in the
+            arts, sciences, and teaching, she attended Etobicoke School of the Arts for Visual Art,
+            gained her HBSc from Guelph University and is currently attending the University of
+            Toronto, working towards a Masters of Teaching degree.
           </p>
           <br />
           <p>

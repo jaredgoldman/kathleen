@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className={styles.root}>
       <div className={styles.link}>
-        Made with love by <a href='https://github.com/jaredgoldman'>JG</a>
+        Made with love by <a href='https://github.com/jaredgoldman'>jg</a>
       </div>
       <div className={styles.link}>
         <a href='mailto:kathleen.mudrick@gmail.com'>Contact</a>
