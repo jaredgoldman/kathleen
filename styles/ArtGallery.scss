@@ -1,0 +1,28 @@
+.art-gallery_root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+
+  // @media screen and (max-width: 900px) {
+  //   margin-top: 3rem;
+  // }
+}
+
+.art-gallery_image-container {
+  display: flex;
+  justify-content: center;
+  height: 45rem;
+  width: 80%;
+  padding: 1rem;
+  margin: 1rem;
+
+  @media screen and (max-width: 900px) {
+    height: 25rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    height: 18rem;
+  }
+}

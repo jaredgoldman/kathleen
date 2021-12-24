@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+A very simple Next.js project/christmas present for my partner, Kathleen.

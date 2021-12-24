@@ -1,0 +1,50 @@
+.root {
+  width: 100%;
+  font-family: 'Poiret One', cursive;
+}
+
+.hero {
+  background-image: url('../public/images/kate/kate2.jpeg');
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+  @media only screen and (min-width: 1224px) {
+    background-size: 100rem auto;
+    background-position: center;
+  }
+}
+
+.heroFade {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(transparent 10%, black 100%);
+}
+
+.heroText {
+  position: absolute;
+  bottom: 7rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  width: 100%;
+
+  @media only screen and (min-width: 1224px) {
+    bottom: 2rem;
+  }
+}
+
+.heading {
+  font-size: 7rem;
+  margin-bottom: 1rem;
+}
+
+.subHeading {
+  font-size: 4rem;
+  padding-bottom: 4rem;
+}

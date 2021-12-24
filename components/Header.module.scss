@@ -1,0 +1,39 @@
+.root {
+  width: 100%;
+  height: 5rem;
+  background-color: #fab0b0;
+  font-family: 'Poiret One', cursive;
+
+  @media screen and (max-width: 600px) {
+    height: 10rem;
+  }
+}
+
+.navLinks {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  A:hover {
+    color: blueviolet;
+  }
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    font-size: 2rem;
+  }
+}
+
+.link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.25rrem;
+}

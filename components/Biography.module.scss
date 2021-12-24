@@ -1,0 +1,77 @@
+.root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Cormorant', serif;
+  color: honeydew;
+}
+
+.moduleOne {
+  background-image: url('../public/images/kate/kate3.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 50rem;
+  padding-top: 15rem;
+
+  @media only screen and (max-width: 1000px) {
+    background-size: 70rem auto;
+    background-position: center;
+  }
+}
+
+.fade {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(transparent 40%, black 100%);
+}
+
+.fadeReverse {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(to top, transparent 40%, black 100%);
+}
+
+.heading {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+
+  width: 100%;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.bioContainer {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  line-height: 1.25;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio {
+  width: 90%;
+  font-size: 2rem;
+}
+
+.moduleTwo {
+  background-image: url('../public/images/kate/kate-baby2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120%;
+  height: 50rem;
+
+  @media only screen and (max-width: 900px) {
+    background-size: 100rem auto;
+    background-position: 40% 40%;
+  }
+}

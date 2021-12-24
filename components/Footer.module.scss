@@ -1,0 +1,30 @@
+.root {
+  height: 4rem;
+  background-color: #fab0b0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-family: 'Poiret One', cursive;
+  font-size: 1.5rem;
+}
+
+.link {
+  color: white;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  A:hover {
+    color: blueviolet;
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: 1.25rem;
+    flex-direction: column;
+  }
+}
