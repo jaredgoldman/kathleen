@@ -17,7 +17,6 @@ export default function HomePage() {
             </div>
             <div className={styles.subHeading}>
               <p>Artist</p>
-              <p>Photographer </p>
               <p>Educator </p>
             </div>
           </div>
