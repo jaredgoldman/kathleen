@@ -5,27 +5,38 @@ export default function Biography() {
   return (
     <div className={styles.root}>
       <div className={styles.moduleOne}>
-        <div className={styles.fade}>
-          {/* <div className={styles.heading}>
-            <h2>About Kathleen</h2>
-          </div> */}
-        </div>
+        <div className={styles.fade}></div>
       </div>
       <div className={styles.bioContainer}>
         <div className={styles.bio}>
           <p>
-            <strong>Kate Mudrick</strong> is a Toronto-based visual artist, whose primary choice of
-            media includes oil or acrylic paint on canvas. With an educational background in the
-            arts, sciences, and teaching, she attended Etobicoke School of the Arts for Visual Art,
-            gained her HBSc from Guelph University and is currently attending the University of
-            Toronto, working towards a Masters of Teaching degree.
+            <strong>Kate Mudrick</strong> is a Toronto-based educator and visual artist. As an
+            artist, Kate has worked both independently, and in association with YAYMaker (formerly
+            PaintNite), as a Teaching Artist for painting events. Her primary artistic medium
+            includes oil and acrylic paint on canvas.
           </p>
           <br />
           <p>
-            Kate has worked both independently, and in association with YAYMaker (formerly
-            PaintNite), as a Teaching Artist for painting events. She is also open for commissions
-            on a case-by-case basis. Please contact her directly for inquiries regarding painting
-            events, commissions, or to purchase a piece.
+            Kate's diverse educational background includes the arts, sciences, and teaching. She
+            attended Etobicoke School of the Arts for Visual Art, gained her Honours Bachelor of
+            Science in Biology (H.B.Sc.) with Distinction from Guelph University and is currently
+            pursuing a masters degree in teaching at OISE, University of Toronto. Kate specializes
+            in instructing science for junior-intermediate age groups and will be graduating in the
+            class of 2022.
+          </p>
+          <br />
+          <p>
+            In addition to art and education, Kate has worked extensively as a medical writer and
+            science editor for several digital communications agencies in Toronto.
+          </p>
+          <br />
+          <p>
+            Kate is open for painting commissions, tutoring and freelance writing and editing on a
+            case-by-case basis. If you're interested, please contact her{' '}
+            <a className={styles.link} href='mailto:kathleen.mudrick@gmail.com'>
+              here
+            </a>
+            .
           </p>
         </div>
       </div>
@@ -35,7 +46,3 @@ export default function Biography() {
     </div>
   )
 }
-
-// Kate Mudrick is a Toronto-based visual artist, whose primary choice of media includes oil or acrylic paint on canvas. With an educational background in the arts, sciences, and teaching, she attended Etobicoke School of the Arts for Visual Art, gained her HBSc from Guelph University and is currently attending the University of Toronto, working towards a Masters of Teaching degree.
-
-// Kate has worked both independently, and in association with YAYMaker (formerly PaintNite), as a Teaching Artist for painting events. She is also open for commissions on a case-by-case basis. Please contact her directly for inquiries regarding painting events, commissions, or to purchase a piece.
