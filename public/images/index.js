@@ -13,7 +13,7 @@ import velvetHand from './art/velvet-hand.jpg'
 import waves from './art/waves.jpg'
 import dusk from './art/dusk.jpg'
 import rockStar from './art/rockStar.jpg'
-import ocean from './art/ocean.png'
+import ocean from './art/ocean.jpg'
 import pinkFlower from './art/pinkFlower.jpg'
 
 const art = [

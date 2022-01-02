@@ -12,6 +12,7 @@ export default function Biography() {
       )
     })
   }
+
   return (
     <div className={styles.root}>
       <div className={styles.moduleOne}>
