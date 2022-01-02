@@ -12,6 +12,7 @@ import smoke from './art/smoke.jpg'
 import velvetHand from './art/velvet-hand.jpg'
 import waves from './art/waves.jpg'
 import dusk from './art/dusk.jpg'
+import rockStar from './art/rockStar.jpg'
 
 const art = [
   { src: velvetHand, label: `Where is the dream? - Oil on canvas. 2'x2'.` },
@@ -25,6 +26,7 @@ const art = [
   { src: lady, label: `There's a light - Oil on canvas. 4'x3'5".` },
   { src: israel, label: `Midreshet Ben-Gurion - Oil on canvas. 3'5"x2'5".` },
   { src: waves, label: `Bruce Beach - Oil on canvas. 2'x1'8".` },
+  { src: rockStar, label: `Her - Oil on canvas. 2'x1'5".` },
   { src: patternOne, label: `Crawling out - Acrylic & molding paste on canvas. 2'x1'5".` },
   { src: patternTwo, label: `The dream connected - Acrylic & molding paste on canvas. 2'x1'5".` },
   { src: patternThree, label: `Shivering inside - Acrylic & molding paste on canvas. 2'x1'5".` },
