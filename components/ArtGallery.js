@@ -29,6 +29,7 @@ export default function ArtGallery() {
           layout='intrinsic'
           width={height}
           height={width}
+          loading='eager'
         />
         <div className='art-gallery_caption' dangerouslySetInnerHTML={{ __html: label }} />
       </div>
