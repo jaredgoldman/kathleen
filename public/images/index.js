@@ -13,19 +13,19 @@ import velvetHand from './art/velvet-hand.jpg'
 import waves from './art/waves.jpg'
 
 const art = [
-  arm,
+  velvetHand,
+  smoke,
+  selfPortrait,
   coltrane,
-  israel,
-  lady,
+  pinkLady,
+  arm,
   landscape,
+  lady,
+  israel,
+  waves,
   patternOne,
   patternTwo,
   patternThree,
-  pinkLady,
-  selfPortrait,
-  smoke,
-  velvetHand,
-  waves,
 ]
 
 export { art }
