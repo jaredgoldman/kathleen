@@ -45,7 +45,11 @@
   position: relative;
   bottom: 10rem;
   color: #fdcccc;
+  text-align: center;
 
+  @media only screen and (max-width: 1000px) {
+    bottom: 5rem;
+  }
   @media only screen and (min-width: 1500px) {
     bottom: 8rem;
   }
