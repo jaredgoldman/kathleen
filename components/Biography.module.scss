@@ -36,6 +36,85 @@
   z-index: 1;
   background: linear-gradient(transparent 40%, black 100%);
 }
+.aboutText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.aboutRow {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  color: black;
+  font-size: 7rem;
+  margin: 1rem 0;
+  transform: translateY(-10rem);
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+
+  @media only screen and (min-width: 500px) {
+    font-size: 4rem;
+    transform: translateY(-5rem);
+  }
+  @media only screen and (min-width: 500px) {
+    font-size: 4rem;
+    transform: translateY(-5rem);
+  }
+
+  @media only screen and (min-width: 800px) {
+    font-size: 5rem;
+    transform: translateY(-5rem);
+  }
+
+  @media only screen and (min-width: 1000px) {
+    font-size: 8rem;
+    transform: translateY(-10rem);
+  }
+
+  @media only screen and (min-width: 1200px) {
+    font-size: 10rem;
+    transform: translateY(-15rem);
+  }
+
+  @media only screen and (min-width: 1500px) {
+    font-size: 10rem;
+    transform: translateY(-20rem);
+  }
+
+  @media only screen and (min-width: 1800px) {
+    font-size: 10rem;
+    transform: translateY(-40rem);
+  }
+
+  @media only screen and (min-width: 2000px) {
+    font-size: 10rem;
+    transform: translateY(-50rem);
+  }
+
+  @media only screen and (min-width: 2400px) {
+    font-size: 13rem;
+    transform: translateY(-60rem);
+  }
+}
+
+.smallAbout {
+  display: none;
+  font-size: 4rem;
+  color: #000000;
+  transform: translateY(18rem);
+  background-color: rgb(200, 207, 200);
+  padding: 1rem;
+  border-radius: 10px;
+
+  @media only screen and (max-width: 600px) {
+    display: flex;
+  }
+}
 
 .fadeReverse {
   position: relative;
@@ -70,6 +149,7 @@
 .bio {
   width: 90%;
   font-size: 2rem;
+  color: #d4dbc7;
 
   @media screen and (max-width: 600px) {
     font-size: 1.5rem;

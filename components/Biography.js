@@ -2,10 +2,25 @@ import React from 'react'
 import styles from './Biography.module.scss'
 
 export default function Biography() {
+  const renderAboutText = () => {
+    return ['#BCDD7E', '#C4E18E', '#DDEEBF', '#F6FBEF'].map((color) => {
+      return (
+        <div className={styles.aboutRow}>
+          <div style={{ color: color }}>About</div>
+          <div style={{ color: color }}>About</div>
+        </div>
+      )
+    })
+  }
   return (
     <div className={styles.root}>
       <div className={styles.moduleOne}>
-        <div className={styles.fade}></div>
+        <div className={styles.fade}>
+          <div className={styles.aboutText}>
+            <div className={styles.smallAbout}>About</div>
+            {renderAboutText()}
+          </div>
+        </div>
       </div>
       <div className={styles.bioContainer}>
         <div className={styles.bio}>

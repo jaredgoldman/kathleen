@@ -13,6 +13,8 @@ import velvetHand from './art/velvet-hand.jpg'
 import waves from './art/waves.jpg'
 import dusk from './art/dusk.jpg'
 import rockStar from './art/rockStar.jpg'
+import ocean from './art/ocean.png'
+import pinkFlower from './art/pinkFlower.jpg'
 
 const art = [
   { src: velvetHand, label: `Where is the dream? - Oil on canvas. 2'x2'.` },
@@ -22,10 +24,12 @@ const art = [
   { src: pinkLady, label: `Submerged - Oil on canvas. 2'x1'5".` },
   { src: dusk, label: `Still, but moving - Oil on canvas, 3'5"x2'5".` },
   { src: arm, label: `Reach - Oil on canvas. 2'5"'x1'5".` },
-  { src: landscape, label: `Death Valley - Acrylic on canvas. 1'x8".` },
+  { src: landscape, label: `Death Valley - Acrylic on wood. 1'x8".` },
+  { src: pinkFlower, label: `Unfurling - Acrylic on canvas. 1'x1'.` },
   { src: lady, label: `There's a light - Oil on canvas. 4'x3'5".` },
   { src: israel, label: `Midreshet Ben-Gurion - Oil on canvas. 3'5"x2'5".` },
-  { src: waves, label: `Bruce Beach - Oil on canvas. 2'x1'8".` },
+  { src: ocean, label: `Bruce Beach - Oil on canvas. 3'x1'5".` },
+  { src: waves, label: `Bruce Beach (II) - Oil on canvas. 2'x1'8".` },
   { src: rockStar, label: `Her - Oil on canvas. 2'x1'5".` },
   { src: patternOne, label: `Crawling out - Acrylic & molding paste on canvas. 2'x1'5".` },
   { src: patternTwo, label: `The dream connected - Acrylic & molding paste on canvas. 2'x1'5".` },

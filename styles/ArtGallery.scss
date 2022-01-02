@@ -4,10 +4,13 @@
   align-items: center;
   margin-bottom: 3rem;
   margin-top: 3rem;
+  font-family: 'Poiret One', cursive;
+  color: #fab0b0;
+}
 
-  // @media screen and (max-width: 900px) {
-  //   margin-top: 3rem;
-  // }
+.art-gallery_heading {
+  margin-bottom: 1.85rem;
+  font-size: 4rem;
 }
 
 .art-gallery_image-container {
@@ -30,8 +33,25 @@
 }
 
 .art-gallery_caption {
-  color: white;
   margin-top: 0.75rem;
-  font-family: 'Poiret One', cursive;
   font-size: 1.25rem;
+  color: #fdcccc;
+}
+
+.art-gallery_caption-wide {
+  margin-top: 0.75rem;
+  font-size: 1.25rem;
+  position: relative;
+  bottom: 10rem;
+  color: #fdcccc;
+
+  @media only screen and (min-width: 1500px) {
+    bottom: 8rem;
+  }
+  @media only screen and (min-width: 1700px) {
+    bottom: 6rem;
+  }
+  @media only screen and (min-width: 1800px) {
+    bottom: 2rem;
+  }
 }
