@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { art } from '../public/images'
 
 export default function ArtGallery() {
-  const Peice = ({ src }) => {
+  const Peice = ({ src, label }) => {
     const adjustSrcSize = () => {
       if (src.height < 1000 && src.width < 1000) {
         return {
@@ -30,11 +30,14 @@ export default function ArtGallery() {
           width={height}
           height={width}
         />
+        <div className='art-gallery_caption' dangerouslySetInnerHTML={{ __html: label }} />
       </div>
     )
   }
 
-  const allArt = art.map((src) => React.Children.toArray(<Peice src={src} />))
+  const allArt = art.map(({ src, label }) =>
+    React.Children.toArray(<Peice src={src} label={label} />)
+  )
 
   return <div className='art-gallery_root'>{allArt}</div>
 }
